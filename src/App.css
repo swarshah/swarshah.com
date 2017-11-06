@@ -1,0 +1,14 @@
+.App{
+  text-align: center;
+}
+
+.name{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.title{
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 15px;
+}

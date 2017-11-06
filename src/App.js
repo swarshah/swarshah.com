@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import Grid from 'material-ui/Grid';
+import Avatar from './Avatar';
+import PersonalInfo from './PersonalInfo';
+import SocialMedia from './SocialMedia';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Grid container spacing={24}>
-          <Grid item xs={12}>
-            <h1>
-              Hello World
-            </h1>
-          </Grid>
-        </Grid>
+        <Avatar />
+        <PersonalInfo />
+        <SocialMedia />
       </div>
     );
   }
